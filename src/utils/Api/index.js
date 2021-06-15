@@ -1,6 +1,6 @@
-import axios, { post, get} from 'axios'
+import axios, { post, get } from 'axios'
 
-const baseUrl = 'http://192.168.2.82:1337'
+const baseUrl = 'http://192.168.2.1:1337'
 
 let token = window.localStorage.getItem('token')
 
